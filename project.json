@@ -1,0 +1,31 @@
+{
+  "name": "sleep2",
+  "description": "camera +SD card with adaptive capture rates, power management, and deep sleep for ESP32-S3",
+  "target": "esp32s3",
+  "version": "1.0.0",
+  "build": {
+    "commands": ["setup", "build", "flash", "monitor", "all"],
+    "default_command": "build"
+  },
+  "features": [
+    "Camera OV2640",
+    "SD Card Storage",
+    "JPEG Capture",
+    "Modular Architecture",
+    "Deepsleep",
+    "FreeRTOS",
+    "Power Management",
+    "Adaptive Performance"
+  ],
+  "optimizations": {
+    "based_on": "simple_cam",
+    "thermal_improvements": [
+      "Power Management (80MHz CPU)",
+      "Efficient SD Card Operations"
+    ],
+    "camera_features": [
+      "10-30s adaptive capture rate",
+      "JPEG quality optimization"
+    ]
+  }
+}

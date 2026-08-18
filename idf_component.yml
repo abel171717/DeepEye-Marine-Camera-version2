@@ -1,0 +1,3 @@
+dependencies:
+  espressif/esp32-camera: ^2.0.3
+  jschwefel/esp-idf-ds3231: ^1.0.3

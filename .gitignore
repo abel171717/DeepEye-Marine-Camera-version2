@@ -1,0 +1,14 @@
+build/
+sdkconfig
+sdkconfig.old
+
+# ESP-IDF managed components (auto-downloaded, do not commit)
+managed_components/
+dependencies.lock
+
+# IDE / editor
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
